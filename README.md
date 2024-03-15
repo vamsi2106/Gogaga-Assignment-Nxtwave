@@ -1,5 +1,7 @@
 ---
 
+#Live Demo: ```https://vamsi-gogaga-nxtwave.vercel.app/ ```
+
 # Gogaga Holidays Frontend Internship Assignment
 
 Dear Gogaga Recruiter,
@@ -8,7 +10,7 @@ Welcome to the repository for the Gogaga Holidays Frontend Internship Assignment
 
 ## Assignment Overview
 
-Your primary objective is to create a visually appealing website that embodies the essence of Gogaga Holidays while providing users with a seamless experience. The website should effectively showcase various features and offerings, including holiday packages, flight booking, hotel booking, and package collections.
+The primary objective is to create a visually appealing website that embodies the essence of Gogaga Holidays while providing users with a seamless experience. The website should effectively showcase various features and offerings, including holiday packages, flight booking, hotel booking, and package collections.
 
 ## Key Features
 
@@ -21,6 +23,14 @@ Your primary objective is to create a visually appealing website that embodies t
 
 - Develop a responsive website that adapts to different devices and screen sizes.
 - Use HTML and CSS for the development to keep the project simple and easily maintainable.
+
+## Repository Structure
+The repository is structured as follows:
+
+1. `index.html`: Main HTML file containing the structure of the website.
+2. `styles/`: Directory containing CSS files for styling.
+3. `images/`: Directory to store images used on the website.
+4. `README.md`: Detailed documentation about the project.
 
 ## Setup Instructions
 
