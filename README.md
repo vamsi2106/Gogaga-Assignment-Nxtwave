@@ -8,7 +8,7 @@ Welcome to the repository for the Gogaga Holidays Frontend Internship Assignment
 
 ## Assignment Overview
 
-The goal of this assignment is to assess your frontend development skills by creating a responsive travel and tourism website for Gogaga Holidays, a fictional travel agency. This project aims to showcase your ability to design and implement key features such as holiday packages, flight booking, hotel booking, and package collections using HTML and CSS.
+Your primary objective is to create a visually appealing website that embodies the essence of Gogaga Holidays while providing users with a seamless experience. The website should effectively showcase various features and offerings, including holiday packages, flight booking, hotel booking, and package collections.
 
 ## Key Features
 
@@ -44,6 +44,7 @@ To set up the project locally on your system and start working on the assignment
    
 
 Best regards,
+
 Nagasai Vamsi Chilakalapudi
 Frontend Developer
 Gogaga Holidays
