@@ -54,7 +54,5 @@ To set up the project locally on your system and start working on the assignment
 Best regards,
 
 Nagasai Vamsi Chilakalapudi
-Frontend Developer
-Gogaga Holidays
 
 ---
