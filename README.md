@@ -1,6 +1,6 @@
 ---
 
-#Live Demo: ```https://vamsi-gogaga-nxtwave.vercel.app/ ```
+**Live Demo: https://vamsi-gogaga-nxtwave.vercel.app
 
 # Gogaga Holidays Frontend Internship Assignment
 
