@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vamsi Gogaga Travel Website</title>
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="https://static.wixstatic.com/media/2d34e5_b534244efca647acba1d5e4aaeb2e613~mv2.png"
+      type="image/svg+xml"
+    />
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+    <header class="header" data-header style="background-color: white">
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-top">
+        <div class="container">
+          <a href="tel:+01123456790" class="helpline-box">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+            <div class="wrapper">
+              <p class="helpline-title" style="color: black">
+                For Further Inquiries:
+              </p>
+              <p class="helpline-number" style="color: black">+91 8106837185</p>
+            </div>
+          </a>
+
+          <a href="#" class="logo">
+            <img
+              class="website-logo"
+              src="https://static.wixstatic.com/media/2d34e5_b534244efca647acba1d5e4aaeb2e613~mv2.png"
+              alt="logo"
+            />
+          </a>
+
+          <div class="header-btn-group">
+            <button class="search-btn" aria-label="Search">
+              <ion-icon name="search"></ion-icon>
+            </button>
+
+            <button
+              class="nav-open-btn"
+              aria-label="Open Menu"
+              style="color: black"
+              data-nav-open-btn
+            >
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <div class="container">
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link" style="color: black"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link" style="color: black"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link" style="color: black"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <nav class="navbar" data-navbar>
+            <div class="navbar-top">
+              <a href="#" class="logo">
+                <img
+                  src="https://static.wixstatic.com/media/2d34e5_b534244efca647acba1d5e4aaeb2e613~mv2.png"
+                  alt="website-logo"
+                />
+              </a>
+
+              <button
+                class="nav-close-btn"
+                aria-label="Close Menu"
+                data-nav-close-btn
+              >
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="navbar-list">
+              <li>
+                <a
+                  href="#home"
+                  style="color: black"
+                  class="navbar-link"
+                  data-nav-link
+                  >home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  style="color: black"
+                  class="navbar-link"
+                  data-nav-link
+                  >about us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#destination"
+                  style="color: black"
+                  class="navbar-link"
+                  data-nav-link
+                  >destination</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#package"
+                  style="color: black"
+                  class="navbar-link"
+                  data-nav-link
+                  >packages</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#gallery"
+                  style="color: black"
+                  class="navbar-link"
+                  data-nav-link
+                  >gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  style="color: black"
+                  class="navbar-link"
+                  data-nav-link
+                  >contact us</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <button class="btn btn-primary">Book Now</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+          <div class="container">
+            <h2 class="h1 hero-title">Journey to Explore the World</h2>
+            <div class="btn-group">
+              <button class="btn btn-primary">Learn More</button>
+              <button class="btn btn-secondary">Book Now</button>
+            </div>
+          </div>
+        </section>
+
+        <!--- FLIGHT SEARCH-->
+        <section>
+          <div
+            style="overflow-x: scroll"
+            class="grid md:grid-cols-2 gap-4 items-start bg-green-200 rounded-lg p-6 shadow-md backdrop-blur-lg bg-opacity-70"
+          >
+            <div class="space-y-4">
+              <div class="space-y-2">
+                <h1 class="text-2xl font-bold text-green-800">
+                  Search for Flights
+                </h1>
+                <p class="text-sm font-medium text-green-600">
+                  Enter your flight details to find available options
+                </p>
+              </div>
+              <div class="space-y-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="space-y-2">
+                    <label
+                      class="block text-sm font-medium leading-5 text-green-800"
+                      for="departure"
+                    >
+                      Departure </label
+                    ><input
+                      class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-white"
+                      id="departure"
+                      placeholder="E.g. JFK"
+                      type="text"
+                    />
+                  </div>
+                  <div class="space-y-2">
+                    <label
+                      class="block text-sm font-medium leading-5 text-green-800"
+                      for="destination"
+                    >
+                      Destination </label
+                    ><input
+                      class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-white"
+                      id="destination"
+                      placeholder="E.g. LAX"
+                      type="text"
+                    />
+                  </div>
+                  <div class="space-y-2">
+                    <label
+                      class="block text-sm font-medium leading-5 text-green-800"
+                      for="departure-date"
+                    >
+                      Departure Date </label
+                    ><input
+                      class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-white"
+                      id="departure-date"
+                      type="date"
+                    />
+                  </div>
+                  <div class="space-y-2">
+                    <label
+                      class="block text-sm font-medium leading-5 text-green-800"
+                      for="return-date"
+                    >
+                      Return Date </label
+                    ><input
+                      class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-white"
+                      disabled=""
+                      id="return-date"
+                      type="date"
+                    />
+                  </div>
+                  <div class="space-y-2">
+                    <label
+                      class="block text-sm font-medium leading-5 text-green-800"
+                      for="passengers"
+                    >
+                      Passengers </label
+                    ><select class="w-full form-select" id="passengers">
+                      <option>1 passenger</option>
+                      <option>2 passengers</option>
+                      <option>3 passengers</option>
+                      <option>4 passengers</option>
+                      <option>5 passengers</option>
+                      <option>6 passengers</option>
+                      <option>7 passengers</option>
+                      <option>8 passengers</option>
+                      <option>9 passengers</option>
+                      <option>10 passengers</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2">
+                  <button
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:bg-accent hover:text-accent-foreground px-4 py-2 h-11 bg-green-500 text-white"
+                  >
+                    <span> Clear </span><span class="sr-only"> search </span>
+                    <div class="w-4 h-4 ml-2 fill-current"></div></button
+                  ><button
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 px-4 py-2 h-11 bg-green-500 text-white"
+                  >
+                    <span> Search Flights </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="space-y-4">
+              <div class="space-y-2">
+                <h2 class="text-lg font-semibold text-green-800">
+                  Available Flights
+                </h2>
+                <p class="text-sm font-medium text-green-600">
+                  Showing 3 available flights
+                </p>
+              </div>
+              <div class="space-y-4">
+                <div class="grid grid-cols-1 gap-4">
+                  <div
+                    class="flex flex-col space-y-4 bg-green-100 p-4 rounded-lg"
+                  >
+                    <div
+                      class="flex flex-col space-y-2 md:flex-row md:items-center md:justify-between"
+                    >
+                      <div class="flex items-center space-x-2">
+                        <img
+                          alt="Airline Logo"
+                          class="rounded-lg aspect-square overflow-hidden object-cover"
+                          height="40"
+                          src="data:image/png;base64,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"
+                          width="40"
+                        />
+                        <div class="space-y-1.5">
+                          <h3 class="text-sm font-semibold text-green-800">
+                            Delta Air Lines
+                          </h3>
+                          <p class="text-xs text-green-600">DL 123</p>
+                        </div>
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div class="space-y-1">
+                          <h3 class="text-xs font-semibold text-green-800">
+                            Departure
+                          </h3>
+                          <p class="text-xs text-green-600">
+                            JFK New York (9:00 AM)
+                          </p>
+                        </div>
+                        <div class="w-4 h-4 text-green-500"></div>
+                        <div class="space-y-1">
+                          <h3 class="text-xs font-semibold text-green-800">
+                            Arrival
+                          </h3>
+                          <p class="text-xs text-green-600">
+                            LAX Los Angeles (12:00 PM)
+                          </p>
+                        </div>
+                      </div>
+                      <div class="flex items-center">
+                        <h3 class="text-lg font-bold text-green-800">$250</h3>
+                      </div>
+                    </div>
+                    <button
+                      class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 px-4 py-2 h-9 bg-green-500 text-white"
+                    >
+                      <span> Book Now </span>
+                    </button>
+                  </div>
+                  <div
+                    class="flex items-center space-x-4 bg-green-100 p-4 rounded-lg"
+                  >
+                    <div class="flex items-center space-x-2">
+                      <img
+                        alt="Airline Logo"
+                        class="rounded-lg aspect-square overflow-hidden object-cover"
+                        height="40"
+                        src="data:image/png;base64,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"
+                        width="40"
+                      />
+                      <div class="space-y-1.5">
+                        <h3 class="text-sm font-semibold text-green-800">
+                          Air Canada
+                        </h3>
+                        <p class="text-xs text-green-600">AC 456</p>
+                      </div>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <div class="space-y-1">
+                        <h3 class="text-xs font-semibold text-green-800">
+                          Departure
+                        </h3>
+                        <p class="text-xs text-green-600">
+                          LAX Los Angeles (10:00 AM)
+                        </p>
+                      </div>
+                      <div class="w-4 h-4 text-green-500"></div>
+                      <div class="space-y-1">
+                        <h3 class="text-xs font-semibold text-green-800">
+                          Arrival
+                        </h3>
+                        <p class="text-xs text-green-600">
+                          JFK New York (1:00 PM)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="flex items-center">
+                      <h3 class="text-lg font-bold text-green-800">$280</h3>
+                    </div>
+                    <button
+                      class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 px-4 py-2 h-9 bg-green-500 text-white"
+                    >
+                      <span> Book Now </span>
+                    </button>
+                  </div>
+                  <div
+                    class="flex items-center space-x-4 bg-green-100 p-4 rounded-lg"
+                  >
+                    <div class="flex items-center space-x-2">
+                      <img
+                        alt="Airline Logo"
+                        class="rounded-lg aspect-square overflow-hidden object-cover"
+                        height="40"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAArlBMVEX///8AL5UALZQAKZMAHpAALJRHX6qaqM8AKJPm6/QAJpIAIJEAIpEAJJIAG48AGY8AFo9cbK0AD435+/7w8/lUZ6w2T6I5VqYAC4yjsNTh5vIONJfIzeLu8fhodrIAAIuOncnU2utyhb2wu9q7xN7L0+e/yOFfdLQAAIWAkMLS2Om0v9yXpc4eQZ4pSKB3iL6Jl8UfQp44VKUOOptHWqVMZa5jfbxQbbOAirxldLHdgLm7AAAaoklEQVR4nO1dC3uiutOXQCpyr1gV1Cpe12qpl9o9+/2/2JvJBAgXu223uPv+H+bZ5xzFSPMjk7lPbLUaaqihhhpqqKGGGmqooYYaaqihhv7HyG//G7SoDWFHdbR/gLxBbQgnZ6L8A6TeNQgbhA3Cv023Q0hk+t9CSFXDMl3HsglVRqMRe2/bmuOatq7SG0CtGaHOoJ1fN9v9chxFnU7H9/1JJ4yi1Wq3n9+/xiNAqtaKs0aEHdq1Hw7LcHJ9SK8TLg/zk+OZem0o61zDw7r3oYF+b7zfGF2tHpQ1IsxTb7UI9tu3zd1mM98vVn5pQBRcbMf+/p15G4TRm/qj62qaZRuqYdim402P23UJpT9+iTWL/v9ByMRK+roTxK6puZ7nOY5pMBDU8kbbTvk7q23s2d+5kHVKmlP/dNkc1gKG3z4Eu9VqvAgOj+euyUBQk27hGYzXYQ7k+NF0vm8ha5Wlhqobpqu+lj20TsCVJTHPK/ZuPz3/DGSUvWDkfZfcqROhajJtZ1Cium47nfs4OPwaxKPzM/59OoWPIsPShue9zLTrO/N7mLVGhD5T7EwN9F2TErcf8Us/p55mGcyWySbf3bMPwpGqUK27iaTvRxvnOzDeQJaGs5gqusFZ1R/YxRkQFz6JKNt5xHZzGJ82rvrvI5yM2/MYZKcXcIhHlRBmmVqa5jiOpsEnNmzBxRB0IbHtg/ztp5P3pzKnXoTjw9F0TBsn2V3yOQ9N+3w337aDxWIRtEfsM70PHyznZ+BK4vRzltBCMf+MVevchwfqmcJGISpVqM7FZZRTDZHBBnhC2EZzgKPTKHebF/OPWLVGhKHJ144yheGOTn1dsR8qRgUuG3JO3k3mTBOq9Im97KU4V33n30TYYRvOdrvPj7NlZ+L3YlXxdhXDzuw5uOv07VJnEBVY5/0g1aPb7tc5tc41dIfKf7vUd1q5ihpXDAvYAhn30tfY0ut84GZ6DMTFtW38gwgnOTOl1brThbDx/V40Xq0Xu8V6vAonbOvRs+REhh5RzDm8UnR3JFa396r9ewiLtNAU/QIvtt6w63kukOd1OQO6YLz5HZSigceED1xYeYQO34RonXtf49SbIJyEq/bLfZ9tuClY2k/d0jQ0MGyi6fnuZcdMt4uuqDwWPx+qinl8wrvM3C9BrBuh/xRs+mfb02xwmRSXs6lRmqrxyC73jqpqu/R1sVaJ4nKptI4dRbWEgFq4X9H+tSKcBANb0ww1s0LtLVx/KIkN9ZVf1xVQnRoZKWIRuRglUyFU19oXINaIsDcYasUwmsrNl4NGqUopzQKn9Bl221wYrfwq34mMdsyaQwnF+Nv6vPKvU1ukHh5RDduyLLZCZAQbsX2O+69xfB4pWtfTwGQhBITpwZRmZgPj+uzyUmOGrFD/kfJpiPVqfKLamtvtKv37+X/bw72hEG65+T3fB50xmXTCdTC7qAqxwDfcdyUuJBos6895h2lMovf9r0Kscw2d7jB+aS/DJFwzYVpAW5UH7hxmbwPCaB4PvdQK5bJmN2XOxoulOInLEdmf3Iu1avwof8E/MxE5Lg8ce8xJTPz71X6gO1zYGr/gOxbVnp/Yu2liPkSfDMbdUOO3fKYR3QrT9Ikh1KQIRme3IWDBOPCG6UZqxkSxN8nHK+dTevG2CFXFqagbYGuoGPnA4mTPIA5h2dqAlUAoILUBd+6/irD1XL2GC7YPR8XsBhVKf5wYQOY2/Sz4jAFXO8LOahEc3u4Gp+fjgG0gD/ZhTzk/P59+zg/BMmJSaGspNC6mOB4NxZyx/08MR+czpccsvnz4xCrWiTBqz2N36Dmaaasq0/AgJLmk6Y3gnWGbTJUMn+dse5ansTcV/Sd/tb5Da81ZQfYDP/1l/gbXTRCGw3KihVggX3u6dImCwcrlZkteR7bZ0ABitDwDIBMUxpvwpmJd+SDVatOU/xyhIFFAMebJfoFvbF4P44QVVx4z5ZJb9cB14rbreooQO8pHdcaNEeKko5L75HBn/tUynfMcGTHsChMPqW0RYrOnM6EeatT1R6VNnQgNVdV1w+Ykcva4tcri3uWxp2cePe2O2j1EqEgClmkaD+zve3uIhsT+g+GpOhEqx8HDZjMHeru/9CEXY4KnW/ZlCQ89dSxR2uCY28mkK1ha0IutaJDi2FrqEffrQyl8fmuESVAioYOduETbmHRdUzIwKY88Rdn2NOmcmelUCvQw49UCjbh0FQvjVj3yoa14Q40/YC5EF1/6vc5yPz8OXRExRuYNpGATMZT8Gq40DAREThpBXg//LYQdjRmX89wlf314dkBLcv4DRsxRbh+GJuHCFBASG7lj/hGteDuEYGB2y55FyLxDrsy5MMkjHAGQMbKqbxMUxFs3teD85w/w6c0Q+kcqRe8lYhYNMUAtTIpMh8NnwwNXGgYhlL+Ya4zbcRGXHwi/1RmnCYLlePwUiiAo4y5tVh7lD5NtuLK8vAZF+TPTnCMssU6Ji/oxVtFkZbT5vTytU1t4juu5ljqKfx6WqxFbKrtce9FaM6YTLpW/u0zlrC+G2w6WojoMEDPuhoiQGQyJuZMomL+EkK8IYcylmy4Yz5L/kxGIl2EqUcK5kaUL7Te49MgGEO+xpRJlKNQPu+QIE/z3ev+GVhtR+RIWHEEmLHR5Dp1DmhI1uYQ9cfmjXZTsSayYTnwR40e/EzY3RIhLGKqXwyozBZiaE0ZpSpOtgxFjDJCLkCvgHCalOX2aBIxbu5IV/9cQUpSEB43x7HmzSPIttkKcon8fXrhZ3eWeliRhU26es+2a7OnBb8KLtVreOSnQ5fGLHhcl1HDMDbhBHWbT6Pfl7y4gNDOEV2tpjZJ9CHEPT+RreJTnryG0XJfXsAFZGCubW+IPE8NT2j5EuatCN62tLZSFbMp5iTf1pCkaY210Mu7ed4brtLzD6Gl5+BXzTSVyoKGs1alzZv4GpiyKxHgPveJ7af42TwnAbVQCZnibe8Pr98XpDWyaORjRGrrmp/ymgcxMpQ4B+YJaUmJ1egaExy0EegiYuGN+oXjTmyNcQwDXm/HXs/LjJmZU8aWImek8XNo7ZiVDGLfpD9tQ3gCp/86U33b37iLWjnAMfGniJlxWRB4Mnvgu1kszUZKYLbtzsnWxniFWmbY/UkiY96wul6jv6sS6ES5BfdsYNOuNKsrUhtw4Me1ZDuNPXWxD+NqjsK+t/1o81KEeWzEFV8o/m9zsmb3nRdWMcA9ZWyMJ906CU7fwuLEAZe0RTZH0fu+ci44HWE7Dze2Q6RHtcOIq3++rXEVO3iu3qRfhHEJOxrOk0ZdxvhQPs7sXHSTrKc28LV2mTSQzHdPbHHPEmILQEcYWX1V0Mh7fcTFqjXnHwD3GMW+yLEZSKZ56gkshsqHq/RIKb2MoRq5EbAw6owuihyt4NpwXrlx03K2rcnXHLRB2IK2tmKWMhL/VUh3HA4TZEliUK5UOUxEFY5W5IBjUSPYcFztzi2hg2/jxdVlTJ0J41M5DubOi9TQQ8h29iizhr1Bv7nMUuSgUo3tD1Gs8ijoOnuZn30Q2PVyXNfUiJN5L5Uf+lrMV0XjcZitPT+uHLWYI5JmUqUWKYSw/CeaIPICh84HR9axprQjVbnDtwyWXQXx2nXxVvk6h6MRZ5u/lCr7tJJEZXLulSzE+XIxi3QahNRLmyl5ZFz+E4IVI66bGuCAeKlXzwxdMuFowOkjsF7TpOoSa/Cbbq2xap2/xJrbgQlO7m0KIJoYYIq+vCKuUWdFYnYOrAbd7SVIewnuKKb5YXbXcbmB5tzUwa5RcAh/S9MIsG1Q5P8N84SbEOgxu+fl3KHcJlL939q0HHRfTv2q51Y9wi8Yok5LZNS49u5x1gyoH1ig4xZCOc9DGmSAUCmZE1O3NbUz2gJ33dxD2HlL2MeOUU+/YVsMi2XBY9ey7YN10MsYG9ZHUo6z4ExPp0tnWNrGWaHGNTWtGOB5J9pSuCLMMCg3UGHdpYJTrm9HfaE9TK46tWxp6QqHCI42BM7qoWO6Y961vhtA/5I1QavI9AzkjkpZ/hXelp4+F7QPDTUoSGZNqqeLhW46rjoNJaOqDXBOmdSJcx0U9TKDJiUeoXElYvhTcRp0v18phmgD33jwXNeahG/6A7mH5E4TXNmKd+tAu/03i7Xtnpijs3IEjwTAHEZcQY93wcgIBOcnGgQojbqNyoWOJZ9W+soh1Vu6NKnwaYusMoDrKm+MruS1GGKt8YQn4EzMtH5D7z0afZDJVJISrK1HFOrk0HFTJN6hRM4s1mNEoW2+sRBD1wnTUgywhUSQD/qQqFghQbvmlaajeX0CY6sIiRrdsrobPCUTMx3QSS8f+BdaBJVnwflcwMjoUiQiCBOXtEbbaVSaZW+VwdEbIqMTkIuUt5XAoUyGaFJADk5Z3NcT8Gyn/bqpFTd0af1fuWdY2lSMhzw8T5gmnSFp8cOhlX2proXIUX/AS8Fd8xNqttpVegGjiX1yU3I0n7lChkL3k18ORB58pVja0+S4nRmLCBtV9Q/Xbpat8Ybb1ymXGxHOK6QqITxCTewqFGC+VO8LA2eURmzUXNNxA5Yx9RZjewLfIQbRPqCfudKoVnFzYshoX/b1CjYUr+yXsQYiiRa7wOcPu4Kl1/hrC1thMJ2yLuNRWA3Wei+cDY6pH/vIlv6Molccxb14Y29wU5bm5NqzpRKmMZNyk2mSZWG+WqBht8zANdSS3uO0K/V6udfLkJWSublryDXk1rvC37wTcblNPE+CiaBfU2zshKdM+kaQfmMvRnpqfKeULm8gTZgmkc4aQBufgDY9o3VXGaurMH2aWGab43A0CGqcGuZl4xT2o+TUf+dfuCsYeX0L/GaMWwIpOckJDB9oY4Hqfa/1NZZ9pnXGaQbJCC1hC0hWKfiW1hCQy5MFiU8FUqR/nEWJY/MnDXCFTEaKmo8VrjdEEx435Vhnbr9W3EPfmthsdYrShtTYlJhRb6g3K8RK7xT/mlCF6GnMb00xMGWbqn+kLzsL+lD+8YuVf/QgVDx5t2Aem1FWhGwptkjz3BMV4Sjc9HWQykjYUxlQnhBAo81+4itRY1NYwPvU05dxenWSrFSF1Vv7M5NmLvpAU+6Itzqw0HiF0pEBVlMWIxSKD/QJe1TlX/jcXdcOLIS/1398eIaFHPCygK2SM/1hyNsh5A9aWnZtHkBaCY+DUh6Z9xVtBeZCWrnWLqQde137wOMJqs63mzAycWKKoU7EFx0erPAMIcSv6Oe8SP4rloKqfITY2DFJSeNnCskbuZAxMHn2sDrfVnXsCUzNObJfxtcY6PERBoiTA66HJrQn9mS//A0HDLVYDN+tfQoj5smRO1SkiapX6LtGstjj38TBGsuJmZgcxd4n7+pGGEeTqnra6EVqjnH0dVEU1iVvypNi6APIRh9OR+qXlSnHmAfN448LBpqK/sYa0+6uQAX4rSwPiLctf5mFfYQ9IWXrZ2Z+YhHhw+zf7ryHUlPLcT8VYA6mqa+OhexN5VO7/4ZlfQcyJxFMoYoqXby9L7ZeKDHdY6AMhYqEW8mJjfxC2PfXO2RcwhyhoIzoUQ5sg71ZHTOusZE/qI3u5yNMiJw9IFwGuhnLGEJQFcZ7S1+kSSrsQkHMPMxDdNFcCNbc46+s0zUUP5fp6Klg0VNRhJiT38BDQlWotJM+d8AJTsdhLVyRN73URM725XSqobemKm2PBrB5fxVIFaCqVQqJjaROGsn5BXSjsIyZ/MGXxmvRPV9cN1Y0weoXpWrluoHRZdAUlY+8MB0okvQohZDGEc5xrpMSNOUGOmMD5J/xUm5OKthvGbW6MsDPHJhGek87ogr6D/YxXe33+8EV4PgRzhmI5TS/nSKFMauMx8mz3Ye8zdPmjDnm9tY/f6h2shCFzLV2TE3Yu3yHvTl5FioLvqkkfSjHEwSa+XOGs84ohP1Z5hHSgCqYFuUuxFPXWcZrOWcv2kJEtYnjmx9AkeX2xggp2H/gANxGwUNCd+VGYU2VqHbKjqy7TM3zlJpRgIfWk+vzaWivZpb+TGcxLSK8xc1X4G5NzOsx4ZCzHs4b79CZZ7MXkYgVqosCC+WkkJ4d13KT+r7p871b9FkQR4vTAK0wNXVg7oZKNIiTiMRpXOjoxSmqghP7nB9jFfmea2nQrTxSiLKuPIbhZRwnOJxzANIjzKuTmmsrSgfLldXOCNxEf4iA0buAYPShVNEWpgyPah6pd/Nsh5CbkzAKmI95WmHNB4eAnfrBZPjUlXCLRroGNXM5OchS3lkjcVCv8G3YFDXvrmMsNI/UliiUKShlgq8XDAhTT4qLcmbCVTAPf9wbR+MvqgPANETJXB6ZAnDtRVdGpSoI7b8XbgGpJPMifRrrWiRHhU0J0/uKjlQq+fEb1dyJEsmkSSFqrFSaIMy/ehRtAKEez/IfkZYRDgaF8UEMVwsn+NPzxw31YfAfIKoTeJdWL44oeXre0gh2wGUT91ETyo1JHkTmFaAxdSZDmEQaG97hYjdsP0/ip9cdUQkhspy19XqwrZfhLK9h6BYtVnBElNacTM3lSP3URrppfqdeXEb5M38QWiU7TisjCHyJUvV+5qv1O4bg64h1K93iBhREWzk5iQzN1RIZEHGNwvhbHyxC2f0hP+HFa1Y70Bwip2y8G1PJ1vUQc+u1LziTPM2q4sh3JBsT4DNDaExB602qAEsIQvOzDD0bTmC1gv+o01S8jJM65XRowkebMzDgRrplP0wE8QmOcUCjIlbZe+hTebHGayNXjsTKELx77z4xGT0+LSzdsRdOKEN9XEVpm0taU41PJZaWW+HNtp5tWLUKWihKxCSVBgnYokD8i2Ex7dRtmCP0z7IKZwt/8YH/uJIW1/gghsYfzhKmeTNlRjNLoqaEK0bbziCj6bfESPzLEKEDgyjya8vvOEU5X6+oBEinCcDpGhL1euIVNOIv/UGUgQmrq8zQCcxjC2QEZJV3KVizWdj0lIkTIHEHQlyJaI3cDKxqXSAv4ykUXUajo6qnfKcLoB++5cafT4dCFaSzox35D5V2EqnvOfsQiOrkSgwGJ/L6bNNbwCA2mzzDZLQrEnuSsqs43pn9mwiK0RCjjnQY9CSHMhO3DoHvg0ALlTxEaljcI0pv0tnDwGsmxKR7JmjbWrHnlDbFhY1348V7CSJU9EFGksphuuTSmGNC53rNe5lK2//mFWf9PubQ7lzROcEY+ktJ/rXt+YqCXXFkIT8Mdt3wO0E4qAeT63yHK0aM9aPUIEbU14fWj6TNJ85xImglWSPTLBsbnSLZvF89JBV/WaIAo1LQ0apbUMZptvw/2TpZUlKLZGhp2e1fReNkC2qfvdJFm2mILycYZlB/tQJQ+/ag4h/OLUHdSu3J6RFkYAwp7lBbKpCaL+vMEe1AlqWrJlJ0on+4wiTQEdxjF0se68yZQztLmgmBz5/vn73Kreu182yiqr9aShy8yV+oi6zvYVHLWNPUb1GeUW9CwYUFaEX3N985VkKy23Y/MLvQf3EJW9ou0ehkVzqjGjbgF1EzGJEL0XFTY6dHB/CkJxYlCCA7XgHdn8Iz5++paoRLC1n66EbDGfa/iNNxPUzg7aqVDcSF0GvY1XmKTyJht6aRumisF91GQENFjkvmJWE/d+XCn89qc3gW73f44jb9hBXv9qaaSEqkx2/I6e6HbAkQYu7Q4yM7/xgU/GZui6mutu8lwFZfwxSz/mZT0/HZb3BmORjbfImQ613Y/b4BWyEk8xXbFL3SM8p6Njz80iKbrKovumJjCqKjwkLihJFAmf6joJYjvU6JMworPinPgFyfl2yL+9//OO7/d11BDDTXUUEMNNdRQQw011FBDH6FVPGB0upMjx0H/xK71cwfo+A+n0+AU54ud3/rsYn9WuCUMHPR/ynfc9gdwEf7Sib86MWLvcoGWeR8+x0HZqNx9cExKdw/bRfS7mPe4qzIyctH/mQvXRHFogjCG3yjR7RzEO7hmFg9n1XR21c5F2x9NtZKGcqDjYlWMsPO5pYf8GN12tf6s4nRqGSGPUpLcCRAYfDZymTmoj4SAiSpnznm3dvGknRaeUJtDeC0x2C0lQEoRmnxeojyGqM5o9t46fhKhQg0p6fovIIQx7uWduNRnESrUzIJ4H0b46Bickvmp+NbIFRqI2euGTEUuxTGqziktkzAH1yF+GiGDmE7rwwgXD/eckgle8O39Ro6h4Yf6fY4eDhUI1bv7hwf275V6IlBerlL6A4SKekwgfhhhepdhmTkLsx9enWo2ppu22K4fMBtCrKvh4S8gVPSkke3TCCcfQPiu9BcIpe+Lc8bs6oM6Po+Q9yIq+nP0NYS970coCjaLp1B+FSHtY+G9eg7rQuhFoUQfQBhipb1ZdaL45xFqQQeP9ta5NVIHQsXrZjQs1gNVIGxhPkTbt6rpkwjbrQhX0YacTC0IZUpOV3oXIR6ZWRr6ZYSt6Cwgdm6AsLgwVQixt8Uslwx+CSFkwiJstbcH/kMdCGWN3/0IQsz/lx7GewixQ87IW94ZwtYqWcWYfD9C/UHS95viwAqEvRGe3HTtINmI/8gLUXNujF1e9oxLOUS+itjf8t3a4spEryLc8XoAol+rNBU/tyTXALXwNIT8Qc45hK2VdCbEX9aHAoB6vTYK2+HoKPsSFqqRQhY+h7C1yjru/i7CSPxM5NVtmPbh6PEOb91r4yEDorrwCkKpK/8vcKm76oQd9m81u5/ik1Yrf2BDkKjbVa34sp3N757x15dI4RivIkLG/qQWhNZhlqN2lffkokHgmUnvRunQMZkiUa1GqG6bdnL6UbErRJalSAuxit+tLSxTJuf4ew9YoU65PFumnZE/jJs/k0thgmWErYVbhywtTv73Pj4xzxU/wZyjp4GZw0gtui3Or8SlANGrQR9+DiGhhqW+vB+K4tMP7lTXMlSVqLpueqO3ci+Kf3Q1Tcu3rDPfzNG07q/CyC67qGmV9de9H/CRNq1EeOdpZXLzXJob4zie9fwQ/B4fn1a42N5fXr3B5X62rCrP8RcBo3Zhaku4WKyeg2vBSyXj+G3+YVAp+HZBFeWbm3aztvzZOvxsadQ39YM11FBDDTXUUEMNNdRQQw011FBDDTXUUEMNNdRQQw19kP4PoWMfBYZDRXQAAAAASUVORK5CYII="
+                        width="40"
+                      />
+                      <div class="space-y-1.5">
+                        <h3 class="text-sm font-semibold text-green-800">
+                          United Airlines
+                        </h3>
+                        <p class="text-xs text-green-600">UA 789</p>
+                      </div>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <div class="space-y-1">
+                        <h3 class="text-xs font-semibold text-green-800">
+                          Departure
+                        </h3>
+                        <p class="text-xs text-green-600">
+                          SFO San Francisco (11:00 AM)
+                        </p>
+                      </div>
+                      <div class="w-4 h-4 text-green-500"></div>
+                      <div class="space-y-1">
+                        <h3 class="text-xs font-semibold text-green-800">
+                          Arrival
+                        </h3>
+                        <p class="text-xs text-green-600">
+                          SEA Seattle (1:00 PM)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="flex items-center">
+                      <h3 class="text-lg font-bold text-green-800">$320</h3>
+                    </div>
+                    <button
+                      class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 px-4 py-2 h-9 bg-green-500 text-white"
+                    >
+                      <span> Book Now </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--- POPULAR -->
+        <section class="popular" id="destination">
+          <div class="container">
+            <p class="section-subtitle">Uncover place</p>
+
+            <h2 class="h2 section-title">Popular destination</h2>
+
+            <p class="section-text">
+              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec
+              nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia
+              tenetur, aptent.
+            </p>
+
+            <ul class="popular-list">
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="https://img.freepik.com/premium-photo/boat-is-floating-river-with-palm-trees-kerala-background_928503-473.jpg?w=740"
+                      alt="kerala"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="card-subtitle">
+                      <a href="#">India</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Kerala</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="https://www.bruisedpassports.com/wp-content/uploads/2018/09/Fairmont-Jaipur-things-to-do-in-Jaipur.jpg"
+                      alt="jaipur"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="card-subtitle">
+                      <a href="#">India</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Jaipur</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/74/05/ff.jpg"
+                      alt="srinagar"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="card-subtitle">
+                      <a href="#">India</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Srinagar</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <button class="btn btn-primary">More destintion</button>
+          </div>
+        </section>
+
+        <!--- Hotel Booking -->
+        <div
+          class="relative min-h-screen bg-cover bg-center"
+          style="
+            background-image: url('https://www.luxsphere.co/wp-content/uploads/bedroom-suite-at-the-prince-akatoki-.jpg');
+          "
+        >
+          <div class="absolute inset-0 bg-black opacity-50"></div>
+          <div
+            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl px-4 sm:px-6 lg:px-8"
+          >
+            <h1 class="text-white text-4xl font-bold text-center mb-6">
+              Make Your Reservation
+            </h1>
+            <div class="bg-white bg-opacity-25 rounded-lg p-4 sm:p-6 lg:p-8">
+              <form
+                class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"
+              >
+                <div>
+                  <label
+                    for="check-in"
+                    class="block text-sm font-medium text-white mb-1"
+                    >Check In</label
+                  ><input
+                    class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-white bg-opacity-50"
+                    id="check-in"
+                    placeholder="dd-mm-yyyy"
+                    type="date"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="check-out"
+                    class="block text-sm font-medium text-white mb-1"
+                    >Check out</label
+                  ><input
+                    class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-white bg-opacity-50"
+                    id="check-out"
+                    placeholder="dd-mm-yyyy"
+                    type="date"
+                  />
+                </div>
+                <div class="sm:col-span-2 lg:col-span-1">
+                  <label
+                    for="no-of-rooms"
+                    class="block text-sm font-medium text-white mb-1"
+                    >No of rooms</label
+                  ><input
+                    type="number"
+                    role="combobox"
+                    value="1"
+                    aria-controls="radix-:r1m:"
+                    aria-expanded="false"
+                    aria-autocomplete="none"
+                    dir="ltr"
+                    data-state="closed"
+                    data-placeholder=""
+                    class="flex h-10 w-full items-center justify-between rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-white bg-opacity-50"
+                    id="no-of-rooms"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="adults"
+                    class="block text-sm font-medium text-white mb-1"
+                    >Adults</label
+                  ><input
+                    type="number"
+                    role="combobox"
+                    value="1"
+                    aria-controls="radix-:r1n:"
+                    aria-expanded="false"
+                    aria-autocomplete="none"
+                    dir="ltr"
+                    data-state="closed"
+                    data-placeholder=""
+                    class="flex h-10 w-full items-center justify-between rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-white bg-opacity-50"
+                    id="adults"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="children"
+                    class="block text-sm font-medium text-white mb-1"
+                    >Children</label
+                  ><input
+                    type="number"
+                    value="0"
+                    role="combobox"
+                    aria-controls="radix-:r1o:"
+                    aria-expanded="false"
+                    aria-autocomplete="none"
+                    dir="ltr"
+                    data-state="closed"
+                    data-placeholder=""
+                    class="flex h-10 w-full items-center justify-between rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-white bg-opacity-50"
+                    id="children"
+                  />
+                </div>
+                <div class="sm:col-span-2 lg:col-span-3">
+                  <button
+                    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 w-full bg-green-500 text-white py-2 rounded-md hover:bg-green-600"
+                  >
+                    Check availability
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!--  PACKAGE -->
+        <section class="package" id="package">
+          <div class="container">
+            <p class="section-subtitle">Popular Packeges</p>
+
+            <h2 class="h2 section-title">Checkout Our Packeges</h2>
+
+            <p class="section-text">
+              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec
+              nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia
+              tenetur, aptent.
+            </p>
+
+            <ul class="package-list">
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/packege-1.jpg"
+                      alt="Experience The Great Holiday On Beach"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">
+                      Experience The Great Holiday On Beach
+                    </h3>
+
+                    <p class="card-text">
+                      Laoreet, voluptatum nihil dolor esse quaerat mattis
+                      explicabo maiores, est aliquet porttitor! Eaque, cras,
+                      aspernatur.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+
+                          <p class="text">7D/6N</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+
+                          <p class="text">lakshadweep</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(25 reviews)</p>
+
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      $750
+                      <span>/ per person</span>
+                    </p>
+
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/packege-2.jpg"
+                      alt="Summer Holiday To The Oxolotan River"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">
+                      Summer Holiday To The Oxolotan River
+                    </h3>
+
+                    <p class="card-text">
+                      Laoreet, voluptatum nihil dolor esse quaerat mattis
+                      explicabo maiores, est aliquet porttitor! Eaque, cras,
+                      aspernatur.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+
+                          <p class="text">7D/6N</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+
+                          <p class="text">Kodaikanal</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      $520
+                      <span>/ per person</span>
+                    </p>
+
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/packege-3.jpg"
+                      alt="Santorini Island's Weekend Vacation"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">
+                      Santorini Island's Weekend Vacation
+                    </h3>
+
+                    <p class="card-text">
+                      Laoreet, voluptatum nihil dolor esse quaerat mattis
+                      explicabo maiores, est aliquet porttitor! Eaque, cras,
+                      aspernatur.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+
+                          <p class="text">7D/6N</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+
+                          <p class="text">Italy</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(40 reviews)</p>
+
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      $660
+                      <span>/ per person</span>
+                    </p>
+
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <button class="btn btn-primary">View All Packages</button>
+          </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section class="gallery" id="gallery">
+          <div class="container">
+            <p class="section-subtitle">Photo Gallery</p>
+
+            <h2 class="h2 section-title">Photo's From Travellers</h2>
+
+            <p class="section-text">
+              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec
+              nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia
+              tenetur, aptent.
+            </p>
+
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img
+                    src="./assets/images/gallery-1.jpg"
+                    alt="Gallery image"
+                  />
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img
+                    src="./assets/images/gallery-2.jpg"
+                    alt="Gallery image"
+                  />
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img
+                    src="./assets/images/gallery-3.jpg"
+                    alt="Gallery image"
+                  />
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img
+                    src="./assets/images/gallery-4.jpg"
+                    alt="Gallery image"
+                  />
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img
+                    src="./assets/images/gallery-5.jpg"
+                    alt="Gallery image"
+                  />
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta" id="contact">
+          <div class="container">
+            <div class="cta-content">
+              <p class="section-subtitle">Call To Action</p>
+
+              <h2 class="h2 section-title">
+                Ready For Unforgatable Travel. Remember Us!
+              </h2>
+
+              <p class="section-text">
+                Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec
+                nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia
+                tenetur, aptent.
+              </p>
+            </div>
+
+            <button class="btn btn-secondary">Contact Us !</button>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!--  FOOTER-->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="https://static.wixstatic.com/media/2d34e5_b534244efca647acba1d5e4aaeb2e613~mv2.png"
+                alt="Tourly logo"
+              />
+            </a>
+
+            <p class="footer-text">
+              Urna ratione ante harum provident, eleifend, vulputate molestiae
+              proin fringilla, praesentium magna conubia at perferendis,
+              pretium, aenean aut ultrices.
+            </p>
+          </div>
+
+          <div class="footer-contact">
+            <h4 class="contact-title">Contact Us</h4>
+
+            <p class="contact-text">Feel free to contact and reach us !!</p>
+
+            <ul>
+              <li class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+
+                <a href="tel:+01123456790" class="contact-link"
+                  >+01 (123) 4567 90</a
+                >
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <a href="https://www.gogagaholidays.com/" class="contact-link"
+                  >gogaga holidays</a
+                >
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>3146 India, Hyderbad</address>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-form">
+            <p class="form-text">
+              Subscribe our newsletter for more update & news !!
+            </p>
+
+            <form action="" class="form-wrapper">
+              <input
+                type="email"
+                name="email"
+                class="input-field"
+                placeholder="Enter Your Email"
+                required
+              />
+
+              <button type="submit" class="btn btn-secondary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">&copy; 2024. All rights reserved</p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">Term & Condition</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- GO TO TOP -->
+    <a href="#top" class="go-top" data-go-top>
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <!-- custom js link  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
